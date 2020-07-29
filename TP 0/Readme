@@ -1,0 +1,18 @@
+El Makefile de este directorio genera tres archivos:
+ - diagonal, para el ejercicio a.
+ - horizontal, para el ejercicio b.
+ - spirals, para el ejercicio c.
+Cada uno de ellos recibe sus argumentos por línea de comandos y genera
+los resultados de su ejecución en dos archivos con su mismo nombre
+y las siguientes extensiones: 
+ - .data, donde están los valores de las coordenadas y clase de cada punto.
+ - .name, donde están los nombres de cada una de las clases y coordenadas.
+ 
+El archivo SpiralPlot.R es un script que genera un gráfico de los
+puntos de un archivo spirals.data que esté en el mismo directorio.
+
+En la carpeta Examples pueden encontrarse datasets generados con cada uno
+de los programas, con valores de d = 4, n = 2000 y C = 2.00 para los casos
+de Diagonal y Horizontal, y con un n = 8000 para Spirals. Además, en esa 
+última carpeta se encuentra un gráfico de dicho data set generado con el
+script antes mencionado.
